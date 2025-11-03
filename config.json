@@ -1,0 +1,17 @@
+{
+    "server": {
+      "port": 3001,
+      "uploadChunkSize": 1048576,
+      "maxFileSize": 4294967296
+    },
+    "psp": {
+      "targetPath": "/ISO",
+      "autoDetect": true,
+      "bufferSize": 2097152
+    },
+    "temp": {
+      "directory": "./temp",
+      "autoCleanup": true,
+      "maxAge": 3600
+    }
+  }
